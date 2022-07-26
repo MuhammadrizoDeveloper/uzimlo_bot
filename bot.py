@@ -41,4 +41,4 @@ async def checkImlo(message: types.Message):
             await message.answer(response)
 
 if __name__ == '__main__':
-    executor.start_polling(dp, skip_updates=True)
+    executor.start_webhook(dp, skip_updates=False)
