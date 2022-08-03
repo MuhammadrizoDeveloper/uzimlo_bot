@@ -19,7 +19,7 @@ async def send_welcome(message: types.Message):
 
 @dp.message_handler(commands='help')
 async def help_user(message: types.Message):
-    await message.answer("Botdan foydalanish uchun so‘z yuboring.")
+    await message.answer("Buyruqlar:\n- /start - Botdan foydalinishni boshlash\n- /help - ushbu xabarni qayta chiqarish\nBotdan foydalanish uchun so‘z yuboring.\nDasturchi: @muhammadrizodev")
 
 @dp.message_handler()
 async def checkImlo(message: types.Message):
