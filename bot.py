@@ -3,7 +3,7 @@ import logging
 from aiogram import Bot, Dispatcher, executor, types
 from checkWord import checkWord
 from transliterate import to_cyrillic, to_latin
-from .set_bot_commands import set_default_commands
+from set_bot_commands import set_default_commands
 
 API_TOKEN='5584667811:AAGdirz2SlyYjLLN7W_gDcgoyIkbB8TJMWk'
 
