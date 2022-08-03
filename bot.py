@@ -20,7 +20,7 @@ async def on_startup(dispatcher):
 
 @dp.message_handler(commands='start')
 async def send_welcome(message: types.Message):
-    await message.answer("Uz Imlo botiga xush kelibsiz!\nBotdan foydalanish uchun so‘z yuboring.")
+    await message.answer("Uz Imlo botiga xush kelibsiz!\nBotdan foydalanish uchun so‘z yuboring.\nBot kirill va lotin alifbosida ishlaydi.")
 
 @dp.message_handler(commands='help')
 async def help_user(message: types.Message):
